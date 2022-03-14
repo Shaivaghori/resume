@@ -422,7 +422,7 @@ header::before{
         top: 0;
         background: url('back2.jpg');
         width: 100%;
-        height: 130%;
+        height: 120%;
         z-index: -1;
         opacity: 0.9;
         /* object-fit: fill; */
@@ -445,7 +445,7 @@ header::before{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 350px;
+        margin-top: 370px;
     }
 
     #about img{
@@ -532,7 +532,7 @@ header::before{
 
     #contact input,textarea{
         margin: 5px 40px;
-        width: 120px;
+        width: 20%;
     }
 
     #btn4{
