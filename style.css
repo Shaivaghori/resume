@@ -532,7 +532,7 @@ header::before{
 
     #contact input,textarea{
         margin: 5px 40px;
-        width: 20%;
+        width: 15%;
     }
 
     #btn4{
@@ -549,6 +549,19 @@ header::before{
         margin-top: 2560px;
     }
 
+     header::before{
+        content: " ";
+        position: absolute;
+        top: 0;
+        background: url('back2.jpg');
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.9;
+        /* object-fit: fill; */
+        /* object-position: center bottom; */
+    }
+    
     #contact-us h1{
         margin-left: 120px;
         font-size: 30px;
