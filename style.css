@@ -387,7 +387,7 @@ header::before{
 }
 
 #btn5{
-    margin: 10px 1300px;
+    margin: 10px 1250px;
     padding: 10px 15px;
     border-radius: 30px;
     font-size: 15px;
@@ -540,6 +540,42 @@ header::before{
     }
 
     #btn5{
-        margin: 10px 420px;
+        margin: 10px 350px;
     }
+}
+
+@media screen and (max-width:427px) {
+    #projects{
+        margin-top: 2560px;
+    }
+
+    #contact-us h1{
+        margin-left: 120px;
+        font-size: 30px;
+    }
+
+    #skills h1{
+        margin-left: 145px;
+        font-size: 30px;
+    }
+
+    #education h1{
+        margin-left: 120px;
+        font-size: 30px;
+        /* margin-top: 60px; */
+    }
+
+    #projects h1{
+        margin-left: 110px;
+        font-size: 30px;
+    }
+
+    #btn5{
+        margin: 10px 300px;
+    }
+
+    #contact{
+        width: 100%;
+    }
+
 }
